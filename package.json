@@ -1,9 +1,13 @@
 {
-  "name": "assignment-1",
+  "name": "assignment-2",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "node ./server.js"
+  },
+  "engines": {
+    "node": "^12.18.3",
+    "npm": "^6.0.0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.4",
@@ -32,5 +36,17 @@
     "@types/passport": "^1.0.7",
     "@types/passport-local": "^1.0.34",
     "@types/passport-local-mongoose": "^6.1.0"
-  }
+  },
+  "description": "COMP-229 Assignment 2",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Moon5153/COMP229-Assignment2.git"
+  },
+  "author": "Najmun Nahar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Moon5153/COMP229-Assignment2/issues"
+  },
+  "homepage": "https://github.com/Moon5153/COMP229-Assignment2#readme"
 }
