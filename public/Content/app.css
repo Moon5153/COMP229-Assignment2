@@ -1,0 +1,134 @@
+/* Custom CSS goes here*/
+body, html {
+    height: 100%;
+    font-family:cursive;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+}
+/* Home Page CSS */
+.bg{
+    background-image: url("/Assets/images/home.jpg");
+    height: 80%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home_text{
+ 
+    padding-top:100px;
+    padding-left: 25px;
+}
+.home_text h1{
+    color:white;
+    font-family: fantasy;
+    text-shadow: 4px 4px rgb(51, 49, 49);
+}
+.home_text h4{
+    color: chocolate;
+    font-family: fantasy;
+    text-shadow: 4px 4px rgb(51, 49, 49);
+}
+.home_text p{
+    font-style: italic;
+    color: white;
+    font-family: sans-serif;
+}
+.btn{
+    color: white;
+    border: 3px solid white;
+    border-radius: 5%;
+}
+.btn:hover{
+    color: chocolate;
+    border: 3px solid chocolate;
+}
+
+/*About Page*/
+.information img{
+    width: 75%;
+    padding-top: 10px;
+}
+.information h1{
+    padding-top: 30px;
+}
+.information p{
+    font-size: 14px;
+}
+.information button{
+    background-color: chocolate;
+    color: white;
+    border: 1px 1px chocolate;
+    padding: 5px;
+}
+
+/* Projects Page*/
+.project_wrapper{
+    text-align: center;
+}
+.project_wrapper p{
+    font-size: 10px;
+}
+/* Services Page*/
+.service{
+    text-align: center;
+    font-family: fantasy;
+}
+.service i{
+    font-size: 40px;
+    background-color:chocolate;
+    padding: 10px;
+    color: white;
+    border-radius: 50%;
+}
+.service p{
+    padding-top: 10px;
+}
+
+/* Contact Page*/
+.contact_wrapper
+{
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 20px;
+      border: 3px solid white;
+      width: 70%;
+}
+.contact_wrapper p{
+    font-size: 14px;
+}
+.forms{
+    background-color: white;
+ 
+}
+input[type=submit]{
+    width: 100%;
+    padding:7px;
+    border: none;
+    background-color: chocolate;
+    color: white;
+}
+/*bottom nav*/
+.bottom-footer{
+    width: 100%;
+}
+.btnCancel{
+    margin-top: 10px;
+    background-color:brown;
+}
+.btnMargin{
+    margin-bottom: 30px;
+}
+.main_navigation{
+    font-size: 15px;
+}
+.loginPage h1{
+    margin-top: 20px;
+}
+.add_contact{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
